@@ -9,7 +9,7 @@ const pageController = require('./controllers/pageController');
 const app = express();
 
 //connect DB
-mongoose.connect(process.env.DB_URL, {
+mongoose.connect("mongodb+srv://admin:Kallon37*@anikutusu.xnjoh0k.mongodb.net/?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false,
